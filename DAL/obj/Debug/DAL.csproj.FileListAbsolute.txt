@@ -1,0 +1,13 @@
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.DAL.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.DAL.pdb
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.Model.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.Model.pdb
+C:\Users\TaOo\Desktop\WorkDiary\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\TaOo\Desktop\WorkDiary\DAL\obj\Debug\WorkDiary.DAL.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\obj\Debug\WorkDiary.DAL.pdb
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\mysql.data.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.OracleUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.SQLUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.OracleUtility.pdb
+C:\Users\TaOo\Desktop\WorkDiary\DAL\bin\Debug\WorkDiary.SQLUtility.pdb

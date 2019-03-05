@@ -1,0 +1,156 @@
+﻿-- Table: WD_EVENT_TYPE
+-- Create table
+create table wd_event_type
+(
+  event_type_code varchar2(8) not null,
+  event_type      varchar2(32),
+  event_type_py   varchar2(32),
+  use_flag        char(1) default 1 not null,
+  event_type_desc varchar2(128)
+)
+;
+-- Create/Recreate indexes 
+create index wd_event_type_idx_1 on wd_event_type (event_type_py);
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table wd_event_type
+  add constraint wd_event_type_pk primary key (EVENT_TYPE_CODE);
+
+-- Table: WD_PROJECT
+-- Create table
+create table wd_project
+(
+  project_id      varchar2(8) not null,
+  project_name    varchar2(64),
+  project_name_py varchar2(64),
+  project_desc    varchar2(128),
+  project_leader  varchar2(8),
+  project_status  varchar2(8) not null
+)
+;
+-- Create/Recreate indexes 
+create index wd_project_idx_1 on wd_project (project_name_py);
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table wd_project
+  add constraint wd_project_pk primary key (PROJECT_ID);
+
+-- Table: WD_EVENT
+-- Create table
+create table wd_event
+(
+  event_id      varchar2(16) not null,
+  event_content varchar2(128),
+  event_status  varchar2(8) not null,
+  project       varchar2(8),
+  event_type    varchar2(2)
+)
+;
+-- Create/Recreate indexes 
+create index wd_event_idx_1 on wd_event (event_status);
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table wd_event
+  add constraint wd_event_pk primary key (EVENT_ID);
+
+-- Table: WD_RECORD
+-- Create table
+create table wd_record
+(
+  record_id      varchar2(16) not null,
+  event          varchar2(16) not null,
+  record_date    date default sysdate not null,
+  record_content varchar2(256)
+)
+;
+-- Create/Recreate indexes 
+create index wd_record_idx_1 on wd_record (event);
+create index wd_record_idx_2 on wd_record (record_date);
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table wd_record
+  add constraint wd_record_pk primary key (RECORD_ID);
+
+-- Table: WD_RECORD_TEMP
+-- Create table
+create table WD_RECORD_TEMP
+(
+  t_date  DATE not null,
+  content VARCHAR2(256) not null
+)
+;
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table WD_RECORD_TEMP
+  add constraint WD_RECORD_TEMP_PK primary key (T_DATE, CONTENT);
+
+
+-- Sequence: WD_EVENT_ID_SEQ
+-- Create sequence 
+create sequence wd_event_id_seq
+minvalue 1
+maxvalue 9999
+start with 1
+increment by 1
+cycle;
+
+-- Sequence: WD_RECORD_ID_SEQ
+-- Create sequence 
+create sequence wd_record_id_seq
+minvalue 1
+maxvalue 9999
+start with 1
+increment by 1
+cycle;
+
+-- Sequence: WD_PROJECT_ID_SEQ
+-- Create sequence 
+create sequence wd_project_id_seq
+minvalue 1
+maxvalue 9999999
+start with 1
+increment by 1;
+
+-- Insert Data:
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('01', '管理事件', 'GLSJ', '1', '收集、调查、讨论、计划、总结、通知、检查、请示、汇报。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('02', '技术事件', 'JSSJ', '1', '分析，设计，实施，运维。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0201', '网络运维', 'WLYW', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020101', '网络设计', 'WLSJ', '1', '新增或改变网络设施设备、线路。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020102', '网络维护', 'WLWH', '1', '网络设施设备、线路故障修复或异常排除。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0202', '终端运维', 'ZDYW', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0203', '数据维护', 'SJWH', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0204', '软件技术', 'RJJS', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020401', '软件系统分析设计', 'RJXTFXSJ', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020402', '软件开发', 'RJKF', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020403', '软件维护', 'RJWH', '1', '软件bug修复，性能优化。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0205', '系统运维', 'XTYW', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020501', '系统架构设计', 'XTJGSJ', '1', '新增或改变系统基础架构。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('020502', '系统维护', 'XTWH', '1', '系统设备故障修复或异常排除。');
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('0206', '安全运维', 'AQYW', '1', null);
+
+insert into WD_EVENT_TYPE (EVENT_TYPE_CODE, EVENT_TYPE, EVENT_TYPE_PY, USE_FLAG, EVENT_TYPE_DESC)
+values ('99', '其他事件', 'QTSJ', '1', null);

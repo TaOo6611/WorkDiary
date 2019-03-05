@@ -1,0 +1,7 @@
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\bin\Release\WorkDiary.SQLUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\bin\Release\WorkDiary.SQLUtility.pdb
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\bin\Release\System.Net.Http.dll
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\bin\Release\System.Net.Http.xml
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\obj\Release\SQLUtility.csprojResolveAssemblyReference.cache
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\obj\Release\WorkDiary.SQLUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\SQLUtility\obj\Release\WorkDiary.SQLUtility.pdb

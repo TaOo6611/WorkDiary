@@ -1,0 +1,6 @@
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\bin\Debug\WorkDiary.OracleUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\bin\Debug\WorkDiary.OracleUtility.pdb
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\obj\Debug\OracleUtility.csprojResolveAssemblyReference.cache
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\obj\Debug\WorkDiary.OracleUtility.dll
+C:\Users\TaOo\Desktop\WorkDiary\DBUtility\obj\Debug\WorkDiary.OracleUtility.pdb

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIL", "UIL\UIL.csproj", "{FAF79D92-D19C-4380-A9BB-C28AFC2C6EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{50DB8ED2-7AED-4058-92FF-4D486AAE8B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleUtility", "DBUtility\OracleUtility.csproj", "{957F28CC-AAE5-471B-8B22-10AAABBD11C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{34A35400-84CA-4F91-A86B-3C39DD965C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODBCUtility", "ODBCUtility\ODBCUtility.csproj", "{B7DEF3F4-4A11-4893-AC90-8924576F1184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleDBUtility", "OleDBUtility\OleDBUtility.csproj", "{3F82C0DF-1BB1-4B70-92D4-75C32E11E335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLUtility", "SQLUtility\SQLUtility.csproj", "{7A17DDCE-274D-49CC-B089-C1384EE847B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF79D92-D19C-4380-A9BB-C28AFC2C6EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF79D92-D19C-4380-A9BB-C28AFC2C6EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF79D92-D19C-4380-A9BB-C28AFC2C6EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF79D92-D19C-4380-A9BB-C28AFC2C6EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DB8ED2-7AED-4058-92FF-4D486AAE8B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DB8ED2-7AED-4058-92FF-4D486AAE8B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DB8ED2-7AED-4058-92FF-4D486AAE8B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DB8ED2-7AED-4058-92FF-4D486AAE8B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957F28CC-AAE5-471B-8B22-10AAABBD11C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957F28CC-AAE5-471B-8B22-10AAABBD11C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957F28CC-AAE5-471B-8B22-10AAABBD11C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957F28CC-AAE5-471B-8B22-10AAABBD11C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A35400-84CA-4F91-A86B-3C39DD965C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A35400-84CA-4F91-A86B-3C39DD965C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A35400-84CA-4F91-A86B-3C39DD965C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A35400-84CA-4F91-A86B-3C39DD965C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DEF3F4-4A11-4893-AC90-8924576F1184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DEF3F4-4A11-4893-AC90-8924576F1184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DEF3F4-4A11-4893-AC90-8924576F1184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DEF3F4-4A11-4893-AC90-8924576F1184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F82C0DF-1BB1-4B70-92D4-75C32E11E335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F82C0DF-1BB1-4B70-92D4-75C32E11E335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F82C0DF-1BB1-4B70-92D4-75C32E11E335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F82C0DF-1BB1-4B70-92D4-75C32E11E335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A17DDCE-274D-49CC-B089-C1384EE847B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A17DDCE-274D-49CC-B089-C1384EE847B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A17DDCE-274D-49CC-B089-C1384EE847B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A17DDCE-274D-49CC-B089-C1384EE847B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C9B1BC5-E041-4B5C-9D6B-E9191DBCA21D}
+	EndGlobalSection
+EndGlobal

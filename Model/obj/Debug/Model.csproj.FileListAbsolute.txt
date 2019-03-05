@@ -1,0 +1,5 @@
+C:\Users\TaOo\Desktop\WorkDiary\Model\bin\Debug\WorkDiary.Model.dll
+C:\Users\TaOo\Desktop\WorkDiary\Model\bin\Debug\WorkDiary.Model.pdb
+C:\Users\TaOo\Desktop\WorkDiary\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\TaOo\Desktop\WorkDiary\Model\obj\Debug\WorkDiary.Model.dll
+C:\Users\TaOo\Desktop\WorkDiary\Model\obj\Debug\WorkDiary.Model.pdb

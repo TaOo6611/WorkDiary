@@ -1,0 +1,13 @@
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\bin\Release\BackBillCheck.DBUtility.dll
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\bin\Release\BackBillCheck.DBUtility.pdb
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\obj\Release\BackBillCheck.DBUtility.dll
+C:\Users\TaOo\Desktop\BackBillCheck\DBUtility\obj\Release\BackBillCheck.DBUtility.pdb
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\bin\Release\SessionMonitor.DBUtility.dll
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\bin\Release\SessionMonitor.DBUtility.pdb
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\obj\Release\DBUtility.csproj.CoreCompileInputs.cache
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\obj\Release\SessionMonitor.DBUtility.dll
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\obj\Release\SessionMonitor.DBUtility.pdb
+C:\Users\TaOo\Desktop\连接数监测\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
